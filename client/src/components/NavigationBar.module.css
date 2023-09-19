@@ -1,0 +1,45 @@
+/* Styles for the navigation bar */
+.navigation-bar {
+  background-color: #668362;
+  padding: 5px;
+  border: 3px solid rgb(59, 61, 58);
+}
+.fixed-navigation-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.category-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 10px;
+}
+
+.category-list li {
+  padding: 0;
+  margin: 0;
+}
+
+.category-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal; /* Set the default font weight */
+  font-size: 16px; /* Set the default font size */
+  transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Apply styles when the link is hovered */
+.category-list a:hover {
+  text-decoration: underline;
+  font-weight: bold; /* Make the text bolder on hover */
+  font-size: 18px; /* Increase the font size on hover */
+}
+
+/* Apply styles when the link is active (clicked) */
+.category-list a:active {
+  font-weight: bold; /* Make the text bolder when active (clicked) */
+}

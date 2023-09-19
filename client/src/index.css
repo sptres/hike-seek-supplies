@@ -1,0 +1,186 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #b2c5b8;
+}
+
+.site-container {
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  display: inline-flex;
+  align-items: center;
+}
+
+.star {
+  color: #1d190d;
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.site-container {
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+.btn-primary {
+  background-color: #3a7a50;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.rating span {
+  color: #000000;
+}
+
+.product {
+  border: 1px #ccc solid;
+  margin: 1rem;
+}
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+.product-info {
+  padding: 1rem;
+}
+.product-page-container {
+  padding: 20px;
+}
+
+.img-container {
+  width: 900px;
+  height: 400px;
+  overflow: hidden;
+  border: 3px solid rgb(59, 61, 58);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.img-large {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.cart-body-container {
+  border-radius: 20px;
+  border: 3px solid rgb(59, 61, 58);
+}
+
+.discounted-price {
+  color: #0c573a;
+  font-weight: bold;
+}
+
+.original-price {
+  text-decoration: line-through;
+}
+
+.loading-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.signup-container {
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.password-input {
+  margin-bottom: 10px;
+}
+
+.image-quote-container {
+  position: relative; /* Position container relative to allow absolute positioning of the quote */
+  margin-top: 25px;
+}
+
+.image-quote-container {
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.image-quote-container img {
+  width: 75%;
+  justify-content: center;
+  height: auto;
+}
+
+.row {
+  margin-top: 60px;
+}
+
+.quote {
+  position: absolute;
+  top: 70%; /* Position the quote in the middle vertically */
+  left: 50%; /* Position the quote in the middle horizontally */
+  transform: translate(-50%, -50%); /* Center the quote precisely */
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+  color: white; /* Set the text color to white */
+  padding: 10px; /* Add padding around the quote */
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+.error-message {
+  color: red; /* Set text color to red */
+  font-size: 14px; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+  margin-top: 5px; /* Add some space from the element above it */
+  text-align: center;
+}
